@@ -1,0 +1,353 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/*ohmyfood*/
+
+#principaltitle {
+	background-color: #579c87;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 a {
+	/*ohmyfood*/
+	color: #f7b736;
+	font-size: 2em;
+	font-family: georgia, sans-serif, Arial, Helvetica;
+	text-decoration: none;
+}
+
+.note {
+	/*icon+note enchantée violette h3*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.insideblock h2 {
+	/*la note enchantée noire*/
+	font-size: 35px;
+	color: black;
+}
+
+.note h3 {
+	/*note enchantée violette*/
+	font-family: "milkshake, Comic Sans MS, sans-serif, Arial, Helvetica";
+	color: #470921;
+	font-size: 40px;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.note i {
+	background: linear-gradient(to right, #470921, #f89b30);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+	margin-top: 15px;
+}
+
+.insideblock {
+	/*tt le bloc rose + la note enchantée en noire*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.menus {
+	/*tte la page rose*/
+	background-color: #fcdfdb;
+	width: 800px;
+	height: 1110px;
+	margin-bottom: 100px;
+	color: #470921;
+	box-shadow: 2px 2px 8px grey;
+}
+
+.title {
+	/*ligne deco droite+ gauche deco + titre*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.titlecontainer {
+	/*titre entre barres+ son soulignement*/
+	text-align: center;
+	width: 330px;
+}
+
+.lignegauchenote {
+	/*ligne deco  gauche */
+	width: 25%;
+	height: 20px;
+}
+
+.lignedroitenote {
+	/*ligne deco droite */
+	width: 25%;
+	height: 20px;
+}
+
+
+/*xxxx*/
+
+.sousmenus {
+	/*des lignes deco à la fin du rose*/
+	font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+}
+
+.textegauche {
+	padding-left: 5px;
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.ligne {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	justify-content: space-between;
+}
+
+.ligne p,
+.ligne span {
+	line-height: 110%;
+}
+
+.textefinal {
+	line-height: 200%;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 18px;
+	font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+}
+
+
+/*traits soulignement*/
+
+.title p {
+	/*juste le titre entre les lignes gauches et droites*/
+	color: #470921;
+}
+
+.title:hover .traitun {
+	animation: soulignement 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+.title:hover .traitdeux {
+	animation: soulignement 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+.title:hover .traittrois {
+	animation: soulignement 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+
+/*souligement gauche vers droite*/
+
+.traitdeux,
+.traittrois,
+.traitun {
+	height: 0;
+	width: 0;
+	background-color: #f7b736;
+	padding-bottom: 3px;
+}
+
+@keyframes soulignement {
+	0% {
+		width: 0;
+		height: 3px;
+	}
+	100% {
+		width: 100%;
+		height: 3px;
+	}
+}
+
+.finalnote i {
+	background: linear-gradient(to right, #470921, #f89b30);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+}
+
+.finalnote {
+	/*image note + texte en bas du rose*/
+	text-align: center;
+	margin-top: 30px;
+}
+
+.finalnote span {
+	font-family: "milkshake, Comic Sans MS, sans-serif, Arial, Helvetica";
+	color: #470921;
+	font-size: 30px;
+}
+
+
+/*pied de page*/
+
+#footcontainer {
+	background-color: #579c87;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#mentionslegales,
+#contacteznous {
+	animation: wiggle 1s linear;
+}
+
+#footcontainer a {
+	color: #f7b736;
+	text-decoration: none;
+}
+
+.iconfapersodeux,
+.final i {
+	font-size: 3em;
+}
+
+footer {
+	position: fixed;
+	left: 8px;
+	bottom: -1px;
+	width: calc(100% - 16px);
+}
+
+@keyframes wiggle {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+@media all and (max-width: 900px) {
+	.ligne {
+		/*lignes de texte*/
+		justify-content: center;
+		flex-direction: column;
+	}
+	.menus {
+		/*tte la page rose*/
+		width: 600px;
+		height: 1350px;
+		margin-bottom: 50px;
+	}
+	.textefinal {
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 610px) {
+	.menus {
+		/*tte la page rose*/
+		width: 400px;
+		height: 1480px;
+		margin-bottom: 50px;
+	}
+	.title {
+		/*ligne deco droite+ gauche deco + titre*/
+		text-align: center;
+	}
+	.titlecontainer {
+		/*nom+soulignement*/
+		text-align: center;
+	}
+	.textegauche {
+		text-align: center;
+	}
+	.textefinal {
+		line-height: 110%;
+	}
+}
+
+@media all and (max-width: 410px) {
+	.menus {
+		/*tte la page rose*/
+		width: 300px;
+		height: 1450px;
+	}
+	h1 a {
+		/*ohmyfood*/
+		font-size: 1.6em;
+	}
+	h2 {
+		text-align: center;
+	}
+	.titlecontainer {
+		text-align: center;
+	}
+	.textegauche {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.textefinal {
+		line-height: 110%;
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 18px;
+		font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+	}
+	.title {
+		text-align: center;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
+/*# sourceMappingURL=style.css.map */

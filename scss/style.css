@@ -1,0 +1,476 @@
+* {
+	box-sizing: border-box;
+}
+
+.maincontainer {
+	min-height: 100%;
+	padding-bottom: 100px;
+}
+
+
+/*ohmyfood*/
+
+#principaltitle {
+	background-color: #579c87;
+	width: 100%;
+	height: 117px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#principaltitle a {
+	color: #f7b736;
+	font-size: 6em;
+	font-family: georgia, sans-serif, Arial, Helvetica;
+	font-weight: bold;
+}
+
+
+/*les 4 menus*/
+
+#principalblock {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/*le titre menu des 4 box*/
+
+h2 a {
+	font-size: 70px;
+	text-decoration: none;
+	color: #470921;
+}
+
+.menu {
+	width: 400px;
+	height: 800px;
+	margin: 40px 2%;
+	box-shadow: 2px 2px 8px grey;
+	text-align: center;
+}
+
+
+/*menu note musique*/
+
+.menunote p {
+	font-size: 60px;
+	color: #470921;
+}
+
+.menunote {
+	padding-top: 90px;
+	background-color: #fcdfdb;
+	font-family: milkshake, Comic Sans MS, sans-serif, Arial, Helvetica;
+}
+
+.menunote i {
+	background: linear-gradient(to right, #f1400a, #f89b30);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 90px;
+}
+
+
+/*menu chic*/
+
+.menuchic p {
+	background: linear-gradient(to right, #d17122 10%, #a6669a 60%, #6b30eb 80%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 60px;
+}
+
+.menuchic {
+	padding-top: 200px;
+	background-color: #fbf2fb;
+	font-family: questaregular, Comic Sans MS, sans-serif, Arial, Helvetica;
+}
+
+.menuchic a {
+	color: #d68a08;
+}
+
+
+/*menu delice*/
+
+.menudelice p {
+	background: linear-gradient(to right, #163bf8 10%, #56a7e6 60%, #56a7e6 80%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: -8px;
+}
+
+.menudelice {
+	background-color: #ebeef0;
+	font-family: scriptina, sans-serif, Arial, Helvetica;
+	padding-top: 150px;
+}
+
+.menudelice a {
+	color: #56a7e6;
+	font-family: comic sans ms, sans-serif, Arial, Helvetica;
+}
+
+
+/*menu palette*/
+
+.menupalette p {
+	background: linear-gradient(to right, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 60px;
+}
+
+.menupalette a {
+	color: #77bf4f;
+}
+
+.menupalette {
+	padding-top: 210px;
+	background-color: #fdfffc;
+	font-family: Comic Sans MS, sans-serif, Arial, Helvetica;
+}
+
+
+/*prochainement*/
+
+#subtitle {
+	background-color: #579c87;
+	margin-top: 50px;
+	border-radius: 10px;
+	width: 40%;
+	height: 70px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin-left: 30%;
+	padding-bottom: 5px;
+}
+
+#subtitle a {
+	font-family: georgia, sans-serif, Arial, Helvetica;
+	color: #f7b736;
+	font-size: 50px;
+}
+
+
+/*les trois points*/
+
+.chargementun,
+.chargementdeux,
+.chargementtrois {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #f7b736;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	animation: points 2s linear infinite;
+}
+
+.chargementun {
+	animation-delay: 100ms;
+}
+
+.chargementdeux {
+	animation-delay: 800ms;
+}
+
+.chargementtrois {
+	animation-delay: 1200ms;
+}
+
+@keyframes points {
+	0%,
+	100% {
+		transform: scale(0)
+	}
+	40% {
+		transform: scale(1)
+	}
+	80% {
+		transform: scale(1.2)
+	}
+}
+
+
+/*pied de page*/
+
+#footcontainer {
+	background-color: #579c87;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#mentionslegales,
+#contacteznous {
+	animation: shake 0.5s linear;
+	-moz-animation-iteration-count: 10;
+	animation-iteration-count: 10;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#footcontainer a {
+	color: #f7b736;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: milkshake;
+	src: url(milkshake.otf);
+}
+
+@font-face {
+	font-family: questaregular;
+	src: url(questaregular.woff);
+}
+
+@font-face {
+	font-family: scriptina;
+	src: url(scriptina.ttf);
+}
+
+footer {
+	position: fixed;
+	left: 8px;
+	bottom: -1px;
+	width: calc(100% - 16px);
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+
+/*animation agrandissement rose menu*/
+
+@keyframes agrandissementmenu {
+	0% {
+		transform: scale(0);
+	}
+	40% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.menunote:hover i {
+	animation: agrandissementmenu 0.8s linear, opacitetexte 0.8s linear;
+	animation-fill-mode: forwards;
+}
+
+.menunote:hover p,
+.menuchic:hover p,
+.menudelice:hover p,
+.menupalette:hover p {
+	animation: agrandissementmenu 0.8s linear, opacitetexte 0.8s linear;
+	animation-fill-mode: forwards;
+}
+
+.menunote:hover h2,
+.menuchic:hover h2,
+.menudelice:hover h2,
+.menupalette:hover h2 {
+	animation: agrandissementmenu 0.8s linear, opacitetexte 0.8s linear;
+	animation-fill-mode: forwards;
+}
+
+.menunote:hover a,
+.menuchic:hover a,
+.menudelice:hover a,
+.menupalette:hover a {
+	animation: opacitetexte 0.8s linear, agrandissement 0.8s linear;
+	animation-fill-mode: forwards;
+}
+
+.menunote:hover,
+.menuchic:hover,
+.menudelice:hover,
+.menupalette:hover {
+	animation: opacitetexte 0.8s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes opacitetexte {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@media all and (max-width: 2000px) {
+.menu {
+	width: 300px;
+	height: 800px;
+}
+}
+@media all and (max-width: 1640px) {
+	.menu {
+		width: 500px;
+		height: 700px;
+	}
+	.menupalette p {
+		margin-top: -20px;
+	}
+	.menudelice p {
+		margin-top: -100px;
+	}
+	.menuchic p {
+		margin-top: -20px;
+	}
+	#subtitle {
+		width: 45%;
+		height: 70px;
+	}
+}
+
+@media all and (max-width: 1136px) {
+	.menu {
+		width: 400px;
+		height: 600px;
+	}
+	.menupalette p {
+		margin-top: -100px;
+	}
+	.menudelice p {
+		margin-top: -100px;
+		line-height: 200%;
+		font-size: 50px;
+		padding-bottom: 60px;
+		padding-top: 10px;
+	}
+	.menudelice a {
+		margin-top: 1000px;
+		margin-bottom: 0;
+	}
+	.menuchic p {
+		margin-top: -100px;
+	}
+	.menunote p {
+		margin-top: 30px;
+	}
+	.menunote i {
+		margin-top: -100px;
+	}
+	#subtitle {
+		width: 60%;
+		height: 70px;
+		margin-left: 20%;
+	}
+}
+
+@media all and (max-width: 720px) {
+	#subtitle {
+		width: 60%;
+		height: 70px;
+		margin-left: 20%;
+	}
+	#subtitle a {
+		font-size: 40px;
+	}
+}
+
+@media all and (max-width: 580px) {
+	.menu {
+		width: 300px;
+		height: 500px;
+	}
+	#subtitle {
+		width: 70%;
+		height: 60px;
+		margin-left: 20%;
+	}
+	#subtitle a {
+		font-size: 25px;
+		padding-bottom: 5px;
+	}
+	#principaltitle a {
+		font-size: 4em;
+	}
+}
+
+@media all and (max-width: 440px) {
+	#subtitle {
+		width: 75%;
+		height: 60px;
+		margin-left: 15%;
+	}
+	#principaltitle a {
+		font-size: 3.5em;
+	}
+	h2 a {
+		font-size: 50px;
+	}
+	.menu p {
+		font-size: 50px;
+	}
+	.menu {
+		width: 300px;
+		height: 500px;
+	}
+	#mentionslegales,
+	#contacteznous {
+		width: 150px;
+		text-align: center;
+	}
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
