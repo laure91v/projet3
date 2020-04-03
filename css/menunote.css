@@ -18,7 +18,7 @@ h1 a {
 	/*ohmyfood*/
 	color: #f7b736;
 	font-size: 2em;
-	font-family: georgia, sans-serif, Arial, Helvetica;
+	font-family: "georgia", "Arial", "Helvetica", sans-serif;
 	text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h1 a {
 
 .note h3 {
 	/*note enchantée violette*/
-	font-family: "milkshake, Comic Sans MS, sans-serif, Arial, Helvetica";
+	font-family: "milkshake", "Comic Sans MS", sans-serif;
 	color: #470921;
 	font-size: 40px;
 	margin-top: 8px;
@@ -106,7 +106,7 @@ h1 a {
 
 .sousmenus {
 	/*des lignes deco à la fin du rose*/
-	font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 .textegauche {
@@ -133,7 +133,7 @@ h1 a {
 	margin-left: 50px;
 	margin-right: 50px;
 	font-size: 18px;
-	font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+	font-family: "Comic Sans MS", sans-serif;
 }
 
 
@@ -197,7 +197,7 @@ h1 a {
 }
 
 .finalnote span {
-	font-family: "milkshake, Comic Sans MS, sans-serif, Arial, Helvetica";
+	font-family: "milkshake", "Comic Sans MS", sans-serif;
 	color: #470921;
 	font-size: 30px;
 }
@@ -339,7 +339,7 @@ footer {
 		margin-left: 20px;
 		margin-right: 20px;
 		font-size: 18px;
-		font-family: "Comic Sans MS, sans-serif, Arial, Helvetica";
+		font-family: "Comic Sans MS", sans-serif;
 	}
 	.title {
 		text-align: center;
