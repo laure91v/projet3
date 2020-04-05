@@ -90,7 +90,8 @@ h2 a {
 .menuchic {
 	padding-top: 150px;
 	background-color: #fbf2fb;
-	font-family: "questaregular", "Comic Sans MS", sans-serif;
+	font-family: "arial", sans-serif;
+	font-weight: bold;
 }
 
 .menuchic a {
@@ -115,7 +116,7 @@ h2 a {
 .menudelice {
 	background-color: #ebeef0;
 	font-family: "scriptina", sans-serif;
-	padding-top: -10px;
+	padding-top: 5px;
 	line-height: 800%;
 	
 }
@@ -135,6 +136,7 @@ h2 a {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 60px;
+	font-style: italic;
 }
 
 .menupalette a {
@@ -393,6 +395,7 @@ footer {
 	}
 	.menudelice p {
 		margin-top: 180px;
+		font-size: 58px;
 	}
 	
 	#subtitle {
