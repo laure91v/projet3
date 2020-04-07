@@ -69,7 +69,7 @@ h1 a {
 	/*tte la page rose*/
 	background-color: #fbf2fb;
 	width: 800px;
-	height: 950px;
+	height: 900px;
 	margin-bottom: 100px;
 	box-shadow: 2px 2px 8px grey;
 }
@@ -117,7 +117,12 @@ h1 a {
 
 	
 }
-
+ul {
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	}
+	
 .ligne {
 	display: flex;
 	align-items: center;
@@ -125,10 +130,7 @@ h1 a {
 	justify-content: space-between;
 }
 
-.ligne p,
-.ligne span {
-	line-height: 110%;
-}
+
 
 .textefinal {
 	line-height: 200%;
@@ -263,7 +265,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 600px;
-		height: 1150px;
+		height: 1200px;
 		margin-bottom: 50px;
 	}
 	.textefinal {
@@ -275,7 +277,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 400px;
-		height: 1250px;
+		height: 1350px;
 		margin-bottom: 50px;
 	}
 	.title {
@@ -297,7 +299,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 300px;
-		height: 1250px;
+		height: 1300px;
 	}
 	h1 a {
 		/*ohmyfood*/

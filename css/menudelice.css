@@ -113,10 +113,11 @@ h1 a {
 	justify-content: space-between;
 }
 
-.ligne p,
-.ligne span {
-	line-height: 110%;
-}
+ul {
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	}
 
 .textefinal {
 	line-height: 200%;
@@ -250,7 +251,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 600px;
-		height: 1150px;
+		height: 1200px;
 		margin-bottom: 50px;
 	}
 	.textefinal {
@@ -262,7 +263,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 400px;
-		height: 1350px;
+		height: 1450px;
 		margin-bottom: 50px;
 	}
 	.title {
@@ -285,7 +286,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 300px;
-		height: 1300px;
+		height: 1350px;
 	}
 	h1 a {
 		/*ohmyfood*/
