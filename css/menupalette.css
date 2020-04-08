@@ -53,10 +53,11 @@ h1 a {
 	/*tte la page rose*/
 	background-color: #fdfffc;
 	width: 800px;
-	height: 900px;
+	height: 1100px;
 	color: black;
 	margin-bottom: 100px;
 	box-shadow: 2px 2px 8px grey;
+	text-align: center;
 }
 
 .title {
@@ -261,7 +262,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 600px;
-		height: 1250px;
+		height: 1700px;
 		margin-bottom: 50px;
 	}
 	.textefinal {
@@ -272,7 +273,7 @@ footer {
 		.menus {
 			/*tte la page rose*/
 			width: 400px;
-			height: 1500px;
+			height: 1950px;
 			margin-bottom: 50px;
 		}
 		.title {
@@ -298,7 +299,7 @@ footer {
 			.menus {
 				/*tte la page rose*/
 				width: 300px;
-				height: 1400px;
+				height: 1900px;
 			}
 			h1 a {
 				/*ohmyfood*/

@@ -69,7 +69,7 @@ h1 a {
 	/*tte la page rose*/
 	background-color: #fbf2fb;
 	width: 800px;
-	height: 900px;
+	height: 1000px;
 	margin-bottom: 100px;
 	box-shadow: 2px 2px 8px grey;
 }
@@ -114,8 +114,7 @@ h1 a {
 	text-decoration: none;
 	margin-left: 90px;
 	margin-right: 90px;
-
-	
+		
 }
 ul {
 	list-style:none;
@@ -265,8 +264,9 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 600px;
-		height: 1200px;
+		height: 1500px;
 		margin-bottom: 50px;
+		text-align: center;
 	}
 	.textefinal {
 		text-align: center;
@@ -277,7 +277,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 400px;
-		height: 1350px;
+		height: 1700px;
 		margin-bottom: 50px;
 	}
 	.title {
@@ -299,7 +299,7 @@ footer {
 	.menus {
 		/*tte la page rose*/
 		width: 300px;
-		height: 1300px;
+		height: 1600px;
 	}
 	h1 a {
 		/*ohmyfood*/
